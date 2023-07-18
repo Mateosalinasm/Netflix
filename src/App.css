@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  background-color: #141414;
+}
+.App {
+  text-align: center;
+  background-image: linear-gradient(180deg,rgba(0,0,0,.7) 10%,transparent);
+
+}
+
+a:hover {
+  transition: .3s;
+}
+
+/* nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.nav-links {
+  display: flex;
+  gap: 15px;
+  padding-top: 30px;
+  margin-left: 18px;
+}
+
+a {
+  text-decoration: none;
+  text-align: -webkit-match-parent;
+  font-size: 11px;
+  color: aliceblue;
+  opacity: 100%;
+  height: 20px;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+
+.logo {
+  height: 4.5rem;
+  margin-left: 1rem;
+}
+
+.secondary-nav {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  margin-right: 40px;
+}
+
+.notification-logo {
+  filter: invert(1);
+  width: 20px;
+  padding-top: 30px;
+}
+
+.search-logo {
+  filter: invert(1);
+  width: 20px;
+  padding-top: 30px;
+}
+
+
+.user-icon {
+  width: 2rem;
+  margin-top: 24px;
+  border-radius: 5px;
+  z-index: 5;
+}
+
+.icon {
+  width: 10px;
+}
+
+
+.slider {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 0.5px;
+  overflow-x: scroll;
+  padding-left: 50px;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+h1 {
+    color: aliceblue;
+}
+ul {
+  padding: 0px;
+} */
